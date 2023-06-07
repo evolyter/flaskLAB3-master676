@@ -56,7 +56,7 @@ def upload():
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
         # Выполняем необходимые операции с изображением
-        image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+        image_pat = os.path.join(app.config['UPLOAD_FOLDER'], filename)
 
         image_changed_path = "static/changed"
         # Обработка изображения
