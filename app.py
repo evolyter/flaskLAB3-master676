@@ -37,7 +37,7 @@ def submit():
 
 
 @app.route('/image', methods=['GET'])
-def ima():
+def image():
     form = FloatForm()
     return render_template('upload-image.html', form=form)
 
