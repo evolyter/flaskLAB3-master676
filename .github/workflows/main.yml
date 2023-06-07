@@ -1,5 +1,4 @@
 name: Run Tests
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 on:
   push:
     branches:
